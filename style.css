@@ -225,15 +225,15 @@ header{
 
 .customer{
     text-align: center;
-
+    width: 300px;
 }
 
 .customer-heading{
     font-family: var(--main-font);
     font-size: 2rem;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
     text-align: center;
-    margin-top: 10rem;
+    margin-top: 5rem;
 }
 
 .customer-reviews .customer-description{
@@ -274,14 +274,14 @@ header{
 
 footer{
     background: #1f1e1e;
-    margin-top: 10rem;
+    margin-top: 7rem;
     color: #fff;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     font-family: var(--main-font);
-    height: 100vh;
+    height: 80vh;
 
 }
 
