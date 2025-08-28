@@ -354,3 +354,60 @@ footer .container .footer-primary-heading {
         border-right: 2px solid rgb(81, 81, 81);
     }
 }
+
+@media only screen and (max-width:414px) {
+    #first-container {
+        border-right: none;
+    }
+
+    footer .container {
+        margin-bottom: 2rem;
+    }
+
+    .footer-heading {
+        border-bottom: 2px solid #323232;
+    }
+
+    #first-container {
+        margin-top: 3rem;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        margin-left: 2rem;
+    }
+
+    .burger {
+        margin-right: 2rem;
+
+    }
+
+    .img-container {
+        margin-top: 3rem;
+    }
+
+    .section-one {
+        margin: 13rem 0;
+    }
+
+    .product-categories {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer {
+        height: auto;
+        padding: 2rem 0;
+    }
+
+    .customer-heading {
+        margin-top: 3rem;
+    }
+}
