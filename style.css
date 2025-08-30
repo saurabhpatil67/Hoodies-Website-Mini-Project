@@ -295,13 +295,35 @@ footer .container .footer-primary-heading {
 
 @media only screen and (max-width: 900px) {
     header {
-        height: 120vh;
+        height: 110vh;
         text-align: center;
+        padding: 0;
+        margin: 0;
     }
 
     .section-one {
-        height: 120vh;
+        height: 110vh;
         text-align: center;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .products {
+        margin-top: 20px;
+    }
+
+    .customer-heading {
+        margin-top: 30px !important;
+    }
+
+    .cutomer-description {
+        width: 380px;
+        margin: 0 auto;
+        color: #323232;
+    }
+
+    .customer-reviews {
+        margin-top: 60px;
     }
 
     .header-img {
@@ -342,16 +364,133 @@ footer .container .footer-primary-heading {
         padding: 0 15px;
     }
 
-    #first-container {
-        border-right: 2px solid rgb(81, 81, 81);
+    footer {
+        flex-wrap: wrap;
+        height: 80%;
+        padding: 2rem 0;
+        margin-top: 2rem;
     }
 }
 
-@media only screen and (max-width: 414px) {
-    #first-container {
-        border-right: none;
+/* Media query add for Tablet (Portrait + Landscape)   */
+@media only screen and (max-width: 700px) and (min-width: 415px) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 
+    .logo {
+        margin-left: 2rem;
+    }
+
+    .burger {
+        margin-right: 2rem;
+    }
+
+    header {
+        height: fit-content;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 2rem;
+        padding: 3rem 0;
+    }
+
+    .btns-container {
+        margin-bottom: 3rem;
+    }
+
+    .main-heading {
+        margin-top: 2rem;
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+
+    .primary-heading {
+        width: 85vw;
+        margin: 0 auto 1rem auto;
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .section-one {
+        margin-top: 0;
+        height: fit-content;
+        padding-top: 2rem;
+    }
+
+    .section-content .main-heading {
+        /* padding: 0 8px; */
+        margin-top: 5rem;
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+
+    header .img-container {
+        margin-bottom: 1rem;
+    }
+
+    .section-one .img-container {
+        margin-top: 30px;
+    }
+
+    .products {
+        margin-top: 2rem;
+    }
+
+    .product-categories {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 0 10px;
+    }
+
+    .product-items-container {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        max-width: 100vw;
+    }
+
+    .product-items-container .item-layer img {
+        width: 120px;
+        height: 160px;
+    }
+
+    .customer-reviews {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .customer {
+        width: 80vw;
+        margin-bottom: 1rem;
+    }
+
+    .customer-heading {
+        margin-bottom: 5rem;
+    }
+
+    footer {
+        flex-direction: column;
+        height: auto;
+        padding: 2rem 0;
+        margin-top: 2rem;
+    }
+
+    footer .container {
+        margin-bottom: 2rem;
+    }
+
+    .footer-heading {
+        border-bottom: 2px solid #323232;
+    }
+}
+
+/* Media query add for android devices  */
+
+@media only screen and (max-width: 414px) {
     footer .container {
         margin-bottom: 2rem;
     }
@@ -384,7 +523,8 @@ footer .container .footer-primary-heading {
     }
 
     header .img-container {
-        margin-top: -10rem;
+        margin-top: -20rem;
+        margin-bottom: -10rem;
     }
 
     .primary-heading {
