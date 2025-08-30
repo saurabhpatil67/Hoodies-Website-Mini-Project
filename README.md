@@ -6,8 +6,8 @@ The base project was created by following the **HuXn WebDev YouTube tutorial**, 
 ---
 
 ## 🌐 Live Demo
-[View Website]([https://your-hosted-link.com](https://saurabhpatil67.github.io/Hoodies-Website-Mini-Project/))  
-*(Replace with your actual hosting link)*
+[View Website](https://saurabhpatil67.github.io/Hoodies-Website-Mini-Project/)  
+
 
 ---
 
@@ -44,7 +44,7 @@ The base project was created by following the **HuXn WebDev YouTube tutorial**, 
 ---
 
 ## 📚 Credits
-- Tutorial Base: [HuXn WebDev YouTube Channel]([https://www.youtube.com/@HuXnWebDev](https://www.youtube.com/watch?v=aWJyfsoow6w))  
+- Tutorial Base: [HuXn WebDev YouTube Tutorial](https://www.youtube.com/watch?v=aWJyfsoow6w)  
 - Responsive enhancements (mobile + tablet breakpoints): **Saurabh Patil**
 
 ---
